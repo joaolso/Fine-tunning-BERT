@@ -24,15 +24,8 @@ fine-tuning-tinybert/
 
 Com `uv` (recomendado):
 ```bash
-uv pip install -r requirements.txt
+uv sync
 ```
-
-Ou com `pip`:
-```bash
-pip install -r requirements.txt
-```
-
----
 
 ### 2. Treinar o modelo
 
@@ -99,5 +92,3 @@ scikit-learn
 ```
 
 ---
-
-Se quiser, podemos adicionar suporte a wandb, exportação de métricas, ou uma interface com Streamlit ✨
